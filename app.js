@@ -20,5 +20,5 @@ app.get('/products', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log('App is listening on po: ', port);
+  console.log('App is listening on port: ', port);
 })
